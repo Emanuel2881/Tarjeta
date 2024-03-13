@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fce4ec; /* Fondo general rosa */
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efecto de sombra para 3D */
+    text-align: center;
+    max-width: 300px;
+}
+
+h1 {
+    color: #ff4081; /* Color del título */
+}
+
+p {
+    font-size: 16px;
+    color: #333; /* Color del texto */
+}
+
+button {
+    background-color: #ff4081; /* Fondo del botón */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #f50057; /* Fondo del botón al hacer hover */
+}
+
+.personalizacion {
+    display: block; /* Asegura que se muestre como bloque */
+    margin-top: 20px;
+    color: #888; /* Color de la personalización */
+    font-size: 14px;
+}
+@keyframes caer {
+    0% { top: -50px; }
+    100% { top: 100vh; }
+}
